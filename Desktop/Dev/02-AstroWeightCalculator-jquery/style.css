@@ -1,0 +1,31 @@
+body {
+ 	background-image: url("https://pixabay.com/static/uploads/photo/2015/05/06/21/41/space-755811_960_720.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ }
+ #topLine h3 {
+ 	display: inline;
+ 	margin-right: 20px;
+ 
+ }
+ #inputs #weight, #selection_div {
+ 	display: inline;
+ 	margin-right: 130px;
+ }
+ 
+ h1 {
+ 	color: white;
+ }
+ 
+ h3 {
+ 	color: white;
+ }
+ 
+ #submit {
+ 	font-size: 118pt;
+ }
+ 
+ p {
+ 	color: white;
+ 	font-size: 16pt;
+ } 

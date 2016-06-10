@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- add external style sheet -->
+    <link rel="stylesheet" href="index.css">
+    <!-- add font family from google.com -->
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:900italic' rel='stylesheet' type='text/css'></head>
+<body>
+    <!-- title -->
+    <p id="title1">    
+    Astro Weight Calculator
+    </p>    
+    <!-- form elements -->
+    <div class="form-inline" id="form">
+         <div class="form-group">
+             <!-- label for weight text input-->
+           <label for="exampleInputName2"> What's your weight? </label>
+           <!-- text input box -->
+           <input type="text" class="form-control" id="weight">
+         </div>
+         <!-- label for drop down menu -->
+       <label for="exampleInputEmail2"> Select planet </label>
+          <!-- drop down menu for the planets -->
+          <select class="form-control" id="planet">
+             <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+        </select>
+         <!--  button - call the function in JavaScripts -->
+        <button onclick="calculate()" class="btn btn-default"> Calculate </button>
+    </div>
+    <!--  result will be printed here-->
+    <samp><p id="result2"></p></samp>
+    <!-- pictures of each planet will be placed here-->
+    <p id="pic"></p>
+<!-- load the External Javascript file-->    
+<script src="index.js"></script>
+</body>
+</html>
